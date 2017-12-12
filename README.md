@@ -37,6 +37,12 @@ See also [our project site](http://taniai.space/projects/stereo/) and [preprint]
 - OpenCV 3 (OpenCV 3.1.0 package will be automatically installed via NuGet upon the initial build)
 - Maxflow code v3.01 by Boykov and Kolmogorov [[Link]](http://vision.csd.uwo.ca/code/)
 
+## My How to Run?
+1. It's important to use Visual Studio with VC++ 2015 vc140 toolset because OpenCV 3.1.0 now is only available for up to 
+    this version.
+2. Note that sometimes .vcproj files got renamed to .vcproj.xml files.
+3. Still need to convert im0.acrt to create im1.acrt
+
 ## How to Run?
 1. Download and extract maxflow source code to "maxflow" directory. Modify instances.inc to add the following line
 ```
