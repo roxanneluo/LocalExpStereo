@@ -11,6 +11,7 @@ x64/Release/LocalExpansionStereo.iobj
 *.idb
 LocalExpansionStereo/results/
 results/
+data/
 data/MiddV3/trainingH/Adirondack
 data/MiddV3/trainingH/Vintage
 *.diagsession
